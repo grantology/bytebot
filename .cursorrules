@@ -1,0 +1,32 @@
+# Boxle AI UI Redesign Rules
+
+## Goal
+Redesign this Bytebot UI as "Boxle AI" with modern overlay/chat style.
+
+## DO NOT MODIFY (API Contract)
+- src/utils/taskUtils.ts
+- src/hooks/useWebSocket.ts
+- src/types/index.ts
+
+## Branding
+- Replace "Bytebot" → "Boxle AI"
+- Replace "bytebot" → "boxle"
+- Replace `--color-bytebot-*` CSS variables
+
+## Redesign Targets
+- src/app/ - All pages
+- src/components/ - All components
+- src/app/globals.css - Color scheme
+
+## New Features to Add
+- Persistent chat panel (slide-out or corner)
+- Overlay-style layout (not tabs)
+- Tutorial/onboarding mode
+- Chat history
+
+## Tech Stack
+- Next.js 14+ (App Router)
+- Tailwind CSS
+- shadcn/ui
+- Socket.io client
+- react-vnc
